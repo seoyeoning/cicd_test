@@ -10,6 +10,6 @@ public class controller {
     @GetMapping("/")
     public String home() {
 
-        return "hello";
+        return "배포 완료!!";
     }
 }
