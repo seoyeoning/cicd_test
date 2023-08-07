@@ -15,7 +15,7 @@ public class controller {
     @GetMapping("/")
     public String home() {
 
-        dao.test(5, "j");
+        dao.test(6, "abc");
 
         return "배포 완료!!";
     }
