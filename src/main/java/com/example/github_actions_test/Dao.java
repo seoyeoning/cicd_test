@@ -18,7 +18,7 @@ public class Dao {
 
     public void test(int id, String name) {
 
-        String query = "insert into test (id, name)\n" + "VALUES (?, ?)";
+        String query = "insert into new_table (id, name)\n" + "VALUES (?, ?)";
         Object[] param = new Object[]{id, name};
 
         this.jdbcTemplate.update(query,param);
