@@ -17,6 +17,6 @@ public class controller {
 
         dao.test(6, "abc");
 
-        return "배포 완료!!";
+        return "jira test!!";
     }
 }
